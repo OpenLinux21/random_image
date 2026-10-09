@@ -19,6 +19,7 @@ $(TARGET): $(OBJS)
 
 random_source.o: random_source.c random_source.h
 jpg_writer.o: jpg_writer.c jpg_writer.h
+main.o: main.c random_source.h jpg_writer.h
 
 clean:
 	$(RM) $(TARGET) $(OBJS)
