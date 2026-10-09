@@ -1,0 +1,12 @@
+# 编译产物
+*.o
+/random_image
+
+# 工具生成的图片
+*.jpg
+
+# 编辑器与系统文件
+*.swp
+.vscode/
+.idea/
+.DS_Store
